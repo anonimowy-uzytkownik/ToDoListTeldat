@@ -1,0 +1,26 @@
+﻿<Window x:Class="ToDoListTeldat.Views.InsertPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListTeldat.Views"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:wpfTool="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
+        mc:Ignorable="d"
+        Title="InsertPage" Height="180" Width="480">
+    <Grid>
+        <DockPanel Margin="10,10,0,0">
+            <TextBlock  HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150"><Run Text="Co musisz wykonać?"/></TextBlock>
+            <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="300" />
+        </DockPanel>
+        <DockPanel Margin="10,50,0,0">
+            <TextBlock  HorizontalAlignment="Left"  TextWrapping="Wrap" Text="Do kiedy musisz to zrobic?" VerticalAlignment="Top" Width="150"/>
+            <wpfTool:DateTimePicker Height="30" x:Name="FinishTimeDatePicker"  VerticalAlignment="Top" Width="300" HorizontalAlignment="Left" TextAlignment="Left"></wpfTool:DateTimePicker>
+        </DockPanel>
+
+        <DockPanel Margin="0,90,0,0">
+            <Button x:Name="insertBtn" Content="Dodaj" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="130" Click="insertBtn_Click"/>
+        </DockPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListTeldat", "ToDoListTeldat.csproj", "{CF5DF1CD-7151-47AA-BAE7-939955F14F84}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ToDoListTeldatInstaller", "..\ToDoListTeldatInstaller\ToDoListTeldatInstaller.vdproj", "{2F7DB7BC-A533-4A4B-9127-F6A01FFC4F0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5DF1CD-7151-47AA-BAE7-939955F14F84}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5DF1CD-7151-47AA-BAE7-939955F14F84}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{CF5DF1CD-7151-47AA-BAE7-939955F14F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5DF1CD-7151-47AA-BAE7-939955F14F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7DB7BC-A533-4A4B-9127-F6A01FFC4F0A}.Debug|Any CPU.ActiveCfg = Release
+		{2F7DB7BC-A533-4A4B-9127-F6A01FFC4F0A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5423417D-33BC-4ADB-9917-78934A3CC0D8}
+	EndGlobalSection
+EndGlobal
